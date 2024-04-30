@@ -1,0 +1,419 @@
+/*==========  Global css    ================*/
+
+body{
+	
+	background: url(../img/bg.png)no-repeat;
+	background-size: cover;
+}
+
+ul li{
+	list-style: none;
+	display: inline;
+
+}
+
+
+/*===================     Header     =================*/
+.left-icon{
+	color: #EFCB92;
+	margin-top: 30px;
+	
+}
+.phone{
+	margin-left: 50px;
+}
+.text-margin{
+	margin-left: 10px;
+}
+.right-icon{
+	color: #EFCB92;
+	margin-top: 30px;
+}
+.icon-margin{
+margin-left: 38px;
+}
+.icon-margin:hover{
+	background-color:#F3A356;
+	color: #252525; 
+	cursor: pointer;
+	border-radius: 25px;
+}
+.logo-margin{
+	margin-top: -30px;
+}
+.menu-bar{
+	color: #D3A356;
+     font-family: 'Cinzel Decorative', cursive;
+	font-size: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.menu-bar:hover{
+	background-color: #171717;
+	border-top: 1px solid #B0753F;
+	color: #D3A356;
+}
+
+
+/*====================  cover section    ====================*/
+.cover-photo{
+	background: url(../img/cover.png);
+}
+.cover-head{
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	color:  #D3A356;
+	margin-top: 160px;
+	
+}
+.cover-text{
+	color:  #EFCB92;
+	text-align: center;
+	font-size: 14px;
+}
+
+.cstm-btn{
+	background-color: #EFCB92;
+	color: black;
+	border: 1px solid #EFCB92;
+	width: 190px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+.cstm-btn:hover{
+	background-color: #151515;
+	color: #FFD99B;
+	cursor: pointer;
+}
+
+
+
+/*================== Welcome section =====================*/
+.welcome h5 {
+	color: white;
+	 font-family: 'Cinzel Decorative', cursive;
+	 margin-top: 80px;
+
+}
+.welcome h1{
+	color:  #F3A356;
+	 font-family: 'Cinzel Decorative', cursive;
+	 margin-top: 15px;
+
+
+}
+.welcome p{
+	color:  #EFCB92;
+	margin-top: 30px;
+	text-align: justify;
+}
+.img-center{
+	margin-top: 200px;
+}
+.service-img{
+	border: 2px solid  #F3A356;;
+	text-align: center;
+	color:  #FFD99B;
+	font-family: 'Cinzel Decorative', cursive;
+}
+.service-img h5{
+	margin: 25px 0px;
+}
+
+
+
+/*=======================   Dream house section start  =====================*/
+.dream-head{
+	color: #F3A356;
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.dream-text{
+	color: #EFCB92;
+	margin-top: 30px;
+}
+.dream-text h4{
+	color: #F3A356;
+	font-family: 'Cinzel Decorative', cursive;
+}
+.dream-text h5{
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.dream-margin{
+	margin-top: 50px;
+    margin-bottom: 85px;
+}
+
+/*====================   Gallery sectiom   =======================*/
+
+.gallery-head{
+	color: #F3A356;
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Cinzel Decorative', cursive;
+
+}
+.gallery-margin{
+	margin-top: 25px ;
+}
+
+
+.view-btn{
+	background-color: #242424;
+	color: #F3A356;
+	border: 1px solid #F3A356;
+	margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.view-btn:hover{
+	background-color: #F3A356;
+	color: #242424;
+	cursor: pointer;
+}
+
+
+/*========================= Testominials section start ===========================*/
+
+.testomonial{
+	text-align: center;
+	color: #F3A356;
+	    margin-bottom: 45px;
+	    font-family: 'Cinzel Decorative', cursive;
+}
+.quote{
+	text-align: center;
+	color:  #EFCB92;
+	
+	
+}
+.testomonial-margin{
+	border: 1px solid #F3A356;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+.quote-icon{
+	color: #EFCB92;
+	text-align: center;
+	font-size: 45px;
+}
+
+
+
+/*======================Footer section start=============================*/
+
+.footer{
+	background-color: #0F0F0F;
+}
+.footer-head{
+	color: #F3A356;
+	text-align: center;
+	margin-top: 40px;
+
+}
+footer p{
+	color: #A4A4A4;
+}
+.footer-icon{
+	color: #F3A356;
+}
+.parent{
+	position: relative;
+	background-color: #252525;
+	width: 300px;
+
+}
+.child{
+   position: absolute;
+    top: 0px;
+    left: 100px;
+    border-radius: -4px;
+}
+.footer-social{
+	color: #F3A356;
+    background-color: #252525;
+    padding: 15px;
+    border-radius: 45px;
+    margin-left: 2px;
+}
+.footer-social:hover{
+	background-color:#F3A356;
+	color: #252525; 
+	cursor: pointer;
+}
+.sign-up-btn{
+	color: white;
+    background-color: #F3A356;
+    border: 1px solid #F3A356;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+}
+.sign-up-btn:hover{
+	cursor: pointer;
+	box-shadow: 2px 0px 2px 10px;
+    background-color:  #F3A356;
+   color: #585353;
+}
+.sign-up-margin{
+	margin-left: 25px;
+}
+
+
+
+/*============================ Responsive Code ====================*/
+@media (min-width: 320px) and (max-width:500px){
+
+.logo-margin {
+    margin-top: 15px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+
+.menu-bar {
+   
+    padding: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.left-icon {
+
+    margin-left: 36px;
+}
+.right-icon {
+    margin-top: 0px;
+}
+.media-gallery{
+	text-align: center;
+}
+.gallery-margin {
+  
+    text-align: center;
+}
+
+
+.cstm-btn {
+    
+    margin-left: 110px;
+}
+.img-center {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.dream-text h4 {
+   
+    text-align: center;
+}
+.dream-text h5 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.view-btn {
+    margin-left: 145px;
+}
+.arrow{
+	display: none;
+}
+footer p {
+    color: #A4A4A4;
+    text-align: center;
+}
+
+
+
+.footer-social {
+    margin-left: 24px;
+}
+
+}
+
+
+@media (min-width: 501px) and (max-width:768px){
+
+.logo-margin {
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.cstm-btn {
+
+    margin-left: 160px;
+}
+
+.img-center {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.media-gallery{
+	text-align: center;
+}
+.gallery-margin {
+  
+    text-align: center;
+}
+.view-btn {
+    margin-left: 195px;
+}
+.arrow{
+	display:none; 
+}
+.footer-social {
+    margin-left: 40px;
+}
+.sign-up-margin {
+    margin-left: 103px;
+}
+
+
+
+	}
+
+	@media (min-width: 769px) and (max-width:991px){
+      .cstm-btn {
+    margin-left: -37px;
+}
+
+      .img-center {
+    margin-top: 278px;
+}
+
+footer p {
+    color: #A4A4A4;
+    margin-left: 20px;
+}
+.footer-social {
+    margin-bottom: 37px;
+    margin-left: 9px;
+}
+.sign-up-margin {
+    margin-left: -94px;
+}
+
+
+    
+
+	}
+
+
+
+@media (min-width: 769px) and (max-width:991px){
+
+.sign-up-margin {
+    margin-left: -10px;
+}
+
+
+}
+
+
+
+
+
+
+	
